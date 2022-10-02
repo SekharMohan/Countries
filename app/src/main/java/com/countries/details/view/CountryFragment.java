@@ -1,4 +1,4 @@
-package com.countries.details;
+package com.countries.details.view;
 
 import android.os.Bundle;
 
@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
+import com.countries.details.R;
 import com.countries.details.view.adapter.CountryAdapter;
 import com.countries.details.viewmodel.CountryViewModel;
 

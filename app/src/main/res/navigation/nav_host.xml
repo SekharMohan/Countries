@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.countries.details.WelcomeFragment"
+        android:name="com.countries.details.view.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/countryFragment"
-        android:name="com.countries.details.CountryFragment"
+        android:name="com.countries.details.view.CountryFragment"
         android:label="fragment_country"
         tools:layout="@layout/fragment_country" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.countries.details.DetailFragment"
+        android:name="com.countries.details.view.DetailFragment"
 
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />

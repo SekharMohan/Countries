@@ -1,4 +1,4 @@
-package com.countries.details;
+package com.countries.details.view;
 
 import android.os.Bundle;
 
@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.countries.details.R;
 import com.countries.details.databinding.FragmentDetailBinding;
 
 public class DetailFragment extends Fragment {

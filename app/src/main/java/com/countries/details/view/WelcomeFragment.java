@@ -1,4 +1,4 @@
-package com.countries.details;
+package com.countries.details.view;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
 import com.bumptech.glide.Glide;
+import com.countries.details.R;
 
 public class WelcomeFragment extends Fragment {
     @Override
