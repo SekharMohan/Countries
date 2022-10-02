@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Countries</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_description">App to: \n 1. List down the countries \n 2. Item with country\'s flag, captital and region \n 3. Country details screen</string>
+    <string name="welcome_string">Welcome to World Cournties</string>
+    <string name="start">Start</string>
+    <string name="capital">Capital</string>
+    <string name="region">Region</string>
+    <string name="get_map_view">Get Map View</string>
+    <string name="country">Country</string>
+</resources>
