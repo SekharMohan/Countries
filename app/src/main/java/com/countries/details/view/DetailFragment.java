@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.countries.details.R;
 import com.countries.details.databinding.FragmentDetailBinding;
@@ -19,9 +20,15 @@ public class DetailFragment extends Fragment {
 
         FragmentDetailBinding dataBinding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_detail, container, false);
-        //dataBinding.setCountry(savedInstanceState.getParcelable("country_key"));
+        if(getArguments().getParcelable("country_key")!=null) {
+        dataBinding.setCountry(getArguments().getParcelable("country_key"));
+        }
         View view = dataBinding.getRoot();
 
         return view;
     }
+    public void onSearchClick(View v){
+        Toast.makeText(getActivity(), "hello", Toast.LENGTH_SHORT).show();
+    }
+
 }
